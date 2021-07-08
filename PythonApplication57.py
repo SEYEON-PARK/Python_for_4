@@ -8,5 +8,5 @@ if N >1: # 만약 N이 1보다 크다면
     M = int(input("정수 M을 입력하시오 : ")) # 사용자로부터 정수 입력받기
 
     for x in range(N):
-        if list1[x] < M:
-            print(list1[x], end=" ")
+        if list1[x] < M: # 만약, list1[x]가 M보다 작다면
+            print(list1[x], end=" ") # list1[x] 출력하기
